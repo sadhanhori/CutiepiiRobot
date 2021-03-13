@@ -51,17 +51,17 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Welcome user: {}, , I am cutest bot: Cutiepii! 
+Welcome user: {}, , I am Sophia ! 
 
 I am an Anime themed advance group management bot with a lot of Special Features.
 
-You can also make my sister. [Cutiepii Repo](https://github.com/Rajkumar-27/CutiepiiRobot)
+You can also make my sister. [YUI  Repo](https://github.com/NetSHELL-Team/YUi_GBot)
 
-Use /help to know my abilities [^_^](https://telegra.ph/file/d31755c8e0245be16c4f5.png).
+Use /help to know my abilities [^_^](https://telegra.ph/file/46a3b6cb0faeb3b8cc0c6.jpg).
 """
 
 HELP_STRINGS = """
-[Cutie](https://telegra.ph/file/d0441d0d700f54b55c9a1.mp4) at your service.
+[SOPHIA ]() at your service.
 I can help you with following functions in managing group.
 
 *Main* commands available:
@@ -79,8 +79,8 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG= "https://telegra.ph/file/d31755c8e0245be16c4f5.png"
-CUTIEPINGIMG = "https://telegra.ph/file/ea42efe4fb0ccbb578fce.gif"
+SAITAMA_IMG= "https://telegra.ph/file/46a3b6cb0faeb3b8cc0c6.jpg"
+CUTIEPINGIMG = "https://telegra.ph/file/c0e796ec07e64e323e51e.mp4"
 
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
@@ -204,22 +204,22 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="Add Cutiepii to your group",
+                            text="Add Sophia  to your group",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username))
                     ],
                      [                         
                        InlineKeyboardButton(
-                             text="Chat With Cutie Lovers",
-                             url="https://t.me/Hindi_K_Drama_1")
+                             text="Chat With anime lovers ",
+                             url="https://t.me/Animeweebs2")
                     ],
                      [
                          InlineKeyboardButton(
                              text="Support Chat",
-                             url=f"https://t.me/{SUPPORT_CHAT}"),
+                             url=f"https://t.me/Animeweebs2{SUPPORT_CHAT}"),
                          InlineKeyboardButton(
                              text="Updates Channel",
-                             url="https://t.me/Techno_Ocean")
+                             url="https://t.me/Animeweebs2")
                   
                      ]]))
     else:
