@@ -52,4 +52,4 @@ __help__ = """
 """
 
 
-__mod_name__ = "Cutie"
+__mod_name__ = "sophia"
