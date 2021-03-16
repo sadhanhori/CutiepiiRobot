@@ -216,7 +216,7 @@ def start(update: Update, context: CallbackContext):
                      [
                          InlineKeyboardButton(
                              text="Support Chat",
-                             url=f"https://t.me/{SUPPORT_CHAT}"),
+                             url=f"https://t.me/Animeweebs2"),
                          InlineKeyboardButton(
                              text="Updates Channel",
                              url="https://t.me/Animeweebs2")
@@ -226,7 +226,7 @@ def start(update: Update, context: CallbackContext):
         update.effective_message.reply_video(
                 CUTIEPINGIMG)
         update.effective_message.reply_text(
-            "Cutie Cutie! \n<b>Queen in command! since:</b> <code>{}</code>".format(uptime),
+            "Sweety arrived! \n<b>Sophia is here for u r help! since:</b> <code>{}</code>".format(uptime),
             parse_mode=ParseMode.HTML)
                     
 
